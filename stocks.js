@@ -26,7 +26,7 @@ class Trading extends Engine.Scene {
     update(time) {
         if (Math.random() < 0.05) {
             this.price = 100 + 20 * Math.sin(time / 1000.0);
-        }
+        } 
 
         this.engine.show(JSON.stringify({
             stocks: this.stocks + " STOCK",
